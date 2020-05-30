@@ -1,0 +1,16 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{  unsigned long long int n,m,a;
+cin>>n>>m>>a;
+long long unsigned int x,y=0;
+x=(n/a)+1;
+y=(m/a)+1;
+if(n%a==0)
+x=n/a;
+if(m%a==0)
+y=m/a;
+cout<<x*y;
+    return 0;
+}
